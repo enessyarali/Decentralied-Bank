@@ -4,7 +4,7 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   e.preventDefault();
   const button = e.target.querySelector("button");
 
-  const name = document.getElementById("name").value.toString();
+  const name = document.getElementById("name").value.toString(); 
 
   button.setAttribute("disabled", true);
 
